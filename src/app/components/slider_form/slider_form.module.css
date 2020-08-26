@@ -1,0 +1,18 @@
+.form_container {
+    
+}
+
+.form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.slider_container {
+    margin-bottom: 50px;
+}
+
+.label_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
