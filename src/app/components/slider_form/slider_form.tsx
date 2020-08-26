@@ -22,7 +22,7 @@ const SliderForm = ({sliderModels, onChange}:props) => {
         onChange(Array.isArray(val) ? val[0] : val, key)
     }
     return (
-        <div className={styles.form_container}>
+        <div>
             <div className={styles.form}>
                 {sliderModels.map(sliderModel => {
                     return (
